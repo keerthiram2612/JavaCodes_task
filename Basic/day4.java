@@ -5,9 +5,11 @@ public class day4 {
     Scanner shin = new Scanner(System.in);
      String a = shin.nextLine();
      int b = shin.nextInt();
-     String k = shin.nextLine();
+     shin.nextLine();
      String c = shin.nextLine();
-     System.out.println(b/10);
+     System.out.println("Enter your name :" +a);
+     System.out.println("Enter your score :" +b/10);
+     System.out.println("Enter your department :" +c);
    }
     
 }
